@@ -1,0 +1,8 @@
+backend_version=R15B
+eclipse.preferences.version=1
+external_includes=
+external_modules=
+include_dirs=include;include/jsonx;include/exmpp;include/EMySQL
+nukeOutputOnClean=true
+output_dir=ebin
+source_dirs=src/jsonx;src;src/bot;src/eMySQL
