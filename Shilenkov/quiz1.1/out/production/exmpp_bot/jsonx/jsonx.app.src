@@ -1,0 +1,13 @@
+%%% -*- mode: erlang -*-
+
+{application, jsonx,
+ [
+  {description, "JSON library for Erlang writen in C"},
+  {vsn, "3.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

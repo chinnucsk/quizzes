@@ -1,0 +1,10 @@
+{application,jsonx,
+             [{description,"JSON library for Erlang writen in C"},
+              {vsn,"3.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[bot,bot_msg,emysql,emysql_app,emysql_auth,emysql_conn,
+                        emysql_conn_mgr,emysql_statements,emysql_sup,
+                        emysql_tcp,emysql_tracer,emysql_util,emysql_worker,
+                        jsonx,jstream,main,mySql]}]}.
