@@ -1,0 +1,12 @@
+{application, server,
+  [
+    {description, "server component"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib
+    ]},
+    {mod, { server_app, []}},
+    {env, []}
+  ]}.
